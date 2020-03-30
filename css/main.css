@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:400,500|Roboto:900&display=swap");
+body {
+  margin: 0;
+  padding: 15px;
+}
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@media screen and (max-width: 768px) {
+  .vert-line {
+    display: none;
+  }
+}
+
+.wraper {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 100px 0 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 20px;
+  font-size: 60px;
+  color: #ffcc00;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+header p {
+  color: #898f8f;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.split-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 90px;
+}
+
+.split-line .line {
+  width: 210px;
+  height: 1px;
+  background-color: #ffcc00;
+  margin: 8px;
+}
+
+.split-line ion-icon {
+  color: #ffcc00;
+}
+
+.vert-line {
+  width: 1px;
+  height: calc(100% + 50px);
+  background-color: #ffcc00;
+  margin: -70px auto 0px auto;
+  padding: 0px;
+}
+
+.person {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.person .photo {
+  position: relative;
+  margin-bottom: 70px;
+  width: 388px;
+  height: 100%;
+  border: 1px solid #ffcc00;
+}
+
+.person .photo img {
+  width: 100%;
+}
+
+.person .photo .square-border {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.person .photo .top-left {
+  border-top: 1px solid #ffcc00;
+  border-left: 1px solid #ffcc00;
+  top: -15px;
+  left: -15px;
+}
+
+.person .photo .top-right {
+  border-top: 1px solid #ffcc00;
+  border-right: 1px solid #ffcc00;
+  top: -15px;
+  right: -15px;
+}
+
+.person .photo .bottom-left {
+  border-bottom: 1px solid #ffcc00;
+  border-left: 1px solid #ffcc00;
+  bottom: -15px;
+  left: -15px;
+}
+
+.person .photo .bottom-right {
+  border-bottom: 1px solid #ffcc00;
+  border-right: 1px solid #ffcc00;
+  bottom: -15px;
+  right: -15px;
+}
+
+.description {
+  width: 100%;
+  text-align: center;
+}
+
+.description h3 {
+  color: #666666;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin: 0 auto 25px auto;
+}
+
+.description .spliter {
+  width: 100px;
+  margin: 5px auto 25px auto;
+  border-top: 2px solid #ffcc00;
+}
+
+.description span {
+  color: #666666;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.description .social {
+  margin: 35px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description .social ion-icon {
+  cursor: pointer;
+  color: #cccccc;
+  font-size: 30px;
+  margin: 3px;
+}
+
+.description .social ion-icon:hover {
+  color: #808080;
+}
+
+.description p {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #333;
+  line-height: 24px;
+}
+
+.description button {
+  margin: 25px auto;
+  width: 120px;
+  height: 24px;
+  border: 2px solid #ffcc00;
+  color: #666666;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.description button:hover {
+  background-color: #ffe065;
+}
+
+.carusel {
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carusel ion-icon {
+  color: #ffcc00;
+  font-size: 16px;
+  margin: 3px;
+}
+/*# sourceMappingURL=main.css.map */
